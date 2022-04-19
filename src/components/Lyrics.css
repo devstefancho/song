@@ -1,0 +1,48 @@
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+section {
+    white-space: pre;
+    line-height: 2.5;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    transition: all .5s;
+    font-size: 30px;
+    color: rgba(0,0,0,.3);
+}
+
+.arrow:active {
+    color: black;
+}
+
+.tag {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.a {
+    color: red;
+}
+.b {
+    color: blue;
+}
+.c {
+    color: green;
+}
