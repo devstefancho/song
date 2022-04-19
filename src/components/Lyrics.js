@@ -11,11 +11,15 @@ export function Lyrics() {
         setIdx(prev => prev < data.length - 1 ? prev + 1 : prev);
     }
     return (
-        <div className='center'>
+        <div className="container">
             <div className={`tag`} style={{ backgroundColor: data[idx].color }}>{data[idx].tag}</div>
-            <div onClick={prevClickHandler} className="arrow">&lt;</div>
-            <section className={data[idx].class}>{data[idx].text}</section>
-            <div onClick={nextClickHandler} className="arrow">&gt;</div>
+            <div className='center'>
+                <section className={data[idx].class}>{data[idx].text}</section>
+            </div>
+            <div className="arrow-box">
+                <div onClick={prevClickHandler} className="arrow">&lt;</div>
+                <div onClick={nextClickHandler} className="arrow">&gt;</div>
+            </div>
         </div>
     )
 }

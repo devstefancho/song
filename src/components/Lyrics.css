@@ -1,11 +1,17 @@
-.center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+* {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.center {
 }
 
 section {
@@ -13,13 +19,17 @@ section {
     line-height: 2.5;
 }
 
-.arrow {
+.arrow-box {
     display: flex;
     align-items: center;
-    margin: auto;
-    height: 100vh;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.arrow {
     transition: all .5s;
-    font-size: 30px;
+    width: 120px;
+    font-size: 100px;
     color: rgba(0,0,0,.3);
 }
 
@@ -28,21 +38,7 @@ section {
 }
 
 .tag {
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
     color: white;
     padding: 10px;
     border-radius: 3px;
-}
-
-.a {
-    color: red;
-}
-.b {
-    color: blue;
-}
-.c {
-    color: green;
 }
