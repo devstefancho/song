@@ -6,6 +6,7 @@ export const data = [
     {
         tag: '동일',
         color: blue,
+        verse: 1,
         text: `
 너를 만나고 세상이 모두 변했어
 의미 없던 하루가 소중해졌으니
@@ -17,6 +18,7 @@ export const data = [
     {
         tag: '성진',
         color: red,
+        verse: 1,
         text: `
 내게 다가왔던 그 순간부터
 작은 기적을 안겨준
@@ -27,6 +29,7 @@ export const data = [
     {
         tag: '동일',
         color: blue,
+        verse: 1,
         text: `
 수많은 사람들 중에
 내 곁을 지켜준 사람
@@ -39,6 +42,7 @@ export const data = [
     {
         tag: '성진',
         color: red,
+        verse: 2,
         text: `
 나의 세상은 너 하나로 가득해서
 나의 계절은 항상 따뜻했어
@@ -50,6 +54,7 @@ export const data = [
     {
         tag: '동일',
         color: blue,
+        verse: 2,
         text: `
 내게 다가왔던 그 순간부터
 작은 기적을 안겨준
@@ -60,6 +65,7 @@ export const data = [
     {
         tag: '성진',
         color: red,
+        verse: 2,
         text: `
 수많은 사람들 중에
 내 곁을 지켜준 사람
@@ -72,6 +78,7 @@ export const data = [
     {
         tag: '동일',
         color: blue,
+        verse: 2,
         text: `
 이토록 눈부시게 아름다운 날
 약속할게 영원토록
@@ -81,6 +88,7 @@ export const data = [
     {
         tag: '성진',
         color: red,
+        verse: 2,
         text: `
 (선태 마이크주기)
 고마워 한없이 네게 감사해
@@ -90,6 +98,7 @@ export const data = [
     {
         tag: '선태',
         color: green,
+        verse: 2,
         text: `
 우리가 걷는 이 길이
 때론 힘이 들어도

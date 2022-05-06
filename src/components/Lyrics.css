@@ -1,49 +1,61 @@
 * {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
-    text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .center {
-    margin-bottom: auto;
-    margin-top: 100px;
+  margin-bottom: auto;
 }
 
 section {
-    white-space: pre;
-    line-height: 2.5;
+  white-space: pre;
+  line-height: 2.5;
+}
+
+.go-first-page {
+  margin-left: auto;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.verse-number {
+  font-size: 14px;
+  margin-top: 20px;
 }
 
 .arrow-box {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  width: 100%;
+  user-select: none;
 }
 
 .arrow {
-    transition: all .5s;
-    width: 120px;
-    font-size: 100px;
-    color: rgba(0,0,0,.3);
+  transition: all 0.5s;
+  width: 120px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 70px;
 }
 
 .arrow:active {
-    color: black;
+  color: black;
 }
 
 .tag {
-    color: white;
-    padding: 10px;
-    border-radius: 3px;
+  color: white;
+  padding: 10px;
 }
